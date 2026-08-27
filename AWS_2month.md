@@ -167,9 +167,9 @@ Bạn phải trả lời được:
 **Mục tiêu**: AWS Foundation setup + VPC architecture + IAM + Security groups
 
 ✅ Commit items:
-- [ ] AWS Account setup (create account, enable billing alerts)
-- [ ] IAM users + roles (create 2-3 IAM users, 1 admin role, 1 developer role)
-- [ ] CloudTrail enabled (log all API calls to S3)
+- [x] AWS Account setup (create account, enable billing alerts)
+- [x] IAM users + roles (create 2-3 IAM users, 1 admin role, 1 developer role)
+- [x] CloudTrail enabled (log all API calls to S3)
 - [ ] VPC creation:
   - [ ] 1 VPC (10.0.0.0/16)
   - [ ] 2 Public Subnets (10.0.1.0/24, 10.0.2.0/24 in different AZs)
