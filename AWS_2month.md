@@ -170,25 +170,25 @@ Bạn phải trả lời được:
 - [x] AWS Account setup (create account, enable billing alerts)
 - [x] IAM users + roles (create 2-3 IAM users, 1 admin role, 1 developer role)
 - [x] CloudTrail enabled (log all API calls to S3)
-- [ ] VPC creation:
-  - [ ] 1 VPC (10.0.0.0/16)
-  - [ ] 2 Public Subnets (10.0.1.0/24, 10.0.2.0/24 in different AZs)
-  - [ ] 2 Private Subnets (10.0.11.0/24, 10.0.12.0/24 in different AZs)
-- [ ] Internet Gateway (attach to VPC)
-- [ ] NAT Gateway (in public subnet, test from private EC2)
-- [ ] Route tables:
-  - [ ] Public route table (default route → IGW)
-  - [ ] Private route table (default route → NAT Gateway)
-- [ ] Security Groups:
-  - [ ] Public SG (SSH from your IP, HTTP/HTTPS from anywhere)
-  - [ ] Private SG (all traffic from public SG)
-- [ ] EC2 instances:
-  - [ ] 1 instance in public subnet (with public IP)
-  - [ ] 1 instance in private subnet (no public IP)
-- [ ] Test connectivity:
-  - [ ] SSH into public EC2
-  - [ ] From public EC2, SSH into private EC2
-  - [ ] From private EC2, curl to public internet (via NAT)
+- [x] VPC creation:
+  - [x] 1 VPC (10.0.0.0/16)
+  - [x] 2 Public Subnets (10.0.1.0/24, 10.0.2.0/24 in different AZs)
+  - [x] 2 Private Subnets (10.0.11.0/24, 10.0.12.0/24 in different AZs)
+- [x] Internet Gateway (attach to VPC)
+- [x] NAT Gateway (in public subnet, test from private EC2)
+- [x] Route tables:
+  - [x] Public route table (default route → IGW)
+  - [x] Private route table (default route → NAT Gateway)
+- [x] Security Groups:
+  - [x] Public SG (SSH from your IP, HTTP/HTTPS from anywhere)
+  - [x] Private SG (all traffic from public SG)
+- [x] EC2 instances:
+  - [x] 1 instance in public subnet (with public IP)
+  - [x] 1 instance in private subnet (no public IP)
+- [x] Test connectivity:
+  - [x] SSH into public EC2
+  - [x] From public EC2, SSH into private EC2
+  - [x] From private EC2, curl to public internet (via NAT)
 - [ ] CloudWatch basic monitoring:
   - [ ] CPU/Network metrics enabled
   - [ ] Create 1 simple alarm (CPU > 70%)
