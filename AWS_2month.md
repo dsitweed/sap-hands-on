@@ -189,15 +189,15 @@ Bạn phải trả lời được:
   - [x] SSH into public EC2
   - [x] From public EC2, SSH into private EC2
   - [x] From private EC2, curl to public internet (via NAT)
-- [ ] CloudWatch basic monitoring:
-  - [ ] CPU/Network metrics enabled
-  - [ ] Create 1 simple alarm (CPU > 70%)
-- [ ] Documentation:
-  - [ ] vpc-architecture.md (diagram + explanation of all components)
-  - [ ] iam-setup.md (users, roles, policies)
-  - [ ] security-groups.md (rules documentation)
-- [ ] GitHub repo initialized with infrastructure diagrams
-- [ ] Cost estimation: ~$20-30/month (mostly NAT Gateway + small EC2s)
+- [x] CloudWatch basic monitoring:
+  - [x] CPU/Network metrics enabled
+  - [x] Create 1 simple alarm (CPU > 70%)
+- [x] Documentation:
+  - [x] vpc-architecture.md (diagram + explanation of all components)
+  - [x] iam-setup.md (users, roles, policies)
+  - [x] security-groups.md (rules documentation)
+- [x] GitHub repo initialized with infrastructure diagrams
+- [x] Cost estimation: ~$20-30/month (mostly NAT Gateway + small EC2s)
 
 ---
 
